@@ -1,0 +1,23 @@
+{
+  "name": "web-speech-demo",
+  "version": "1.0.0",
+  "description": "web speech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nohgnim/web-speech-demo.git"
+  },
+  "keywords": [
+    "web",
+    "speech"
+  ],
+  "author": "Ming Hon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nohgnim/web-speech-demo/issues"
+  },
+  "homepage": "https://github.com/nohgnim/web-speech-demo#readme"
+}
