@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Speech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+      <img src="img/gimme.jpeg" alt="gimme" onclick="makeMe('Please give me candy.')">
+    </div>
+    <div>
+      <img src="img/toilet.jpg" alt="toilet" onclick="makeMe('I need to use the toilet.')">
+    </div>
+    <div>
+      <img src="img/vice.jpeg" alt="vice" onclick="makeMe('A small vice like object.')">
+    </div>
+    
+    <form>
+        <input type="text" class="txt">
+        <div>
+          <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+          <div class="rate-value">1</div>
+          <div class="clearfix"></div>
+        </div>
+        <div>
+          <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="1" step="0.1" id="pitch">
+          <div class="pitch-value">1</div>
+          <div class="clearfix"></div>
+        </div>
+        <select>
+    
+        </select>
+        <div class="controls">
+          <button id="play" type="submit">Play</button>
+        </div>
+        </form>
+    
+        <script src="js/script.js"></script>
+</body>
+</html>
